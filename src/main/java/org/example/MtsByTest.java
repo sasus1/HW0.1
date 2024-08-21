@@ -13,16 +13,16 @@ public class MtsByTest {
 
         WebElement blockTitle = driver.findElement(By.xpath("//h2[contains(text(), 'Онлайн пополнение без комиссии')]"));
         if (blockTitle.isDisplayed()) {
-            System.out.println("Название блока найдено: " + blockTitle.getText());
+            System.out.println("Название найдено: " + blockTitle.getText());
         } else {
-            System.out.println("Название блока не найдено");
+            System.out.println("Название не найдено");
         }
 
         WebElement logos = driver.findElement(By.xpath("//div[@class='payment-logos']"));
         if (logos.isDisplayed()) {
-            System.out.println("Логотипы платежных систем найдены");
+            System.out.println("Логотипы найдены");
         } else {
-            System.out.println("Логотипы платежных систем не найдены");
+            System.out.println("Логотипы не найдены");
         }
 
         WebElement moreInfoLink = driver.findElement(By.linkText("Подробнее о сервисе"));
