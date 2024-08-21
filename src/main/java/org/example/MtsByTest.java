@@ -29,7 +29,7 @@ public class MtsByTest {
         moreInfoLink.click();
 
         WebElement phoneNumberField = driver.findElement(By.id("phone_number"));
-        phoneNumberField.sendKeys("89605555555");
+        phoneNumberField.sendKeys("297777777");
 
         WebElement continueButton = driver.findElement(By.xpath("//button[contains(text(), 'Продолжить')]"));
         continueButton.click();
