@@ -25,16 +25,16 @@ public class Dog {
         protected Object clone(String m) throws CloneNotSupportedException {
             countClone++;
             Dog clon = (Dog) super.clone();
-            clon.type = "(КЛОН - мутант) " + type;
-            clon.name = "КЛОН (М) №" + countClone + "_" + name;
+            clon.type = "(клон - мутант) " + type;
+            clon.name = "клон (М) №" + countClone + "_" + name;
             return clon;
         }
 
         protected Object clone() throws CloneNotSupportedException {
             countClone++;
             Dog clon = (Dog) super.clone();
-            clon.type = "(КЛОН) " + type;
-            clon.name = "КЛОН " + name;
+            clon.type = "(клон) " + type;
+            clon.name = "клон " + name;
             return clon;
         }
 }
