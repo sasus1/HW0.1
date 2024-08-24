@@ -37,4 +37,5 @@ public class Dog {
             clon.name = "клон " + name;
             return clon;
         }
+    }
 }
