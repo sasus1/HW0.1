@@ -9,6 +9,6 @@ public class Factorial {
         for (int i = 1; i <= n; i++) {
             result *= i;
         }
-        return result;
+        return result
     }
 }
