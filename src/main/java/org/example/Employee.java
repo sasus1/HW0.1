@@ -31,7 +31,7 @@ public class Employee {
         Employee[] persArray = new Employee[5];
         persArray[0] = new Employee("Иванов Иван Иванович", "Генеральный директор", "ii@primer,ru", "+79446665234", 250000, 78);
         persArray[1] = new Employee("Семенов Семен Семенович", "Продавец", "cc@primer,ru", "+79998234412", 12000, 23);
-        persArray[2] = new Employee("Сергеев сергей сергеевич", "Охранник", "cc@primer,ru", "+79956451554", 16000, 65);
+        persArray[2] = new Employee("Сергеев Сергей сергеевич", "Охранник", "cc@primer,ru", "+79956451554", 16000, 65);
         persArray[3] = new Employee("Петров Петр Петрович", "Грузчик", "pp@primer,ru", "+79995552166", 15000, 30);
         persArray[4] = new Employee("Антонов Антон Атонович", "Бухгалтер", "aa@primer,ru", "+79995545886", 17000, 29);
 
