@@ -26,6 +26,6 @@ public class Park {
     {
         Park park = new Park("Park");
         Attraction attractionOne = park.new Attraction("Attraction1", "09:00 - 17:00", 18);
-        attractionOne.printInfo()
+        attractionOne.printInfo();
     }
 }
