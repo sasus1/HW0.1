@@ -37,5 +37,4 @@ public class Triangle {
         return borderColor;
     }
 }
-}
 
