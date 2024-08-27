@@ -64,7 +64,7 @@ public class OnlineTopUpTest {
     private void checkPlaceholderText(String xpath, String expectedPlaceholder) {
         WebElement element = driver.findElement(By.xpath(xpath));
         String placeholder = element.getAttribute("placeholder");
-        Assert.assertEquals(placeholder, expectedPlaceholder, "Плейсхолдер не совпадает для элемента: " + xpath);
+        Assert.assertEquals(placeholder, expectedPlaceholder, "Плейсхолдер не совпадает: " + xpath);
     }
 
     @AfterClass
