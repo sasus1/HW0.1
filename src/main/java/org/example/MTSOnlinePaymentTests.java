@@ -20,7 +20,7 @@ public class MTSOnlinePaymentTests {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver"); //надо прописать свой путь
+        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver"); //Надо прописать свой путь
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
         driver.get("https://mts.by");
